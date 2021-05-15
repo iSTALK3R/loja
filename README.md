@@ -1,1 +1,1 @@
-# loja
+# Site criado nas aulas de PHP do curso de Desenvolvimento de Sistemas da ETEC Prof. Idio Zucchi
