@@ -1,0 +1,73 @@
+/* Visualizar page */
+
+section.sc-visualizar {
+    margin-top: 40px;
+}
+
+
+/* Title and infos */
+
+.p-contents .p-title {
+    font-size: 25px;
+}
+
+.p-contents .p-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-contents .p-info .p-info-icons {
+    font-size: 19px;
+}
+
+.p-contents .p-info .p-info-icons a {
+    color: #2e2e2e;
+}
+
+
+/* Parcelas */
+
+.p-parcelas i {
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+.p-parcelas .val {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.p-parcelas .parcelas {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+
+/* Vista */
+
+.p-avista i {
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+.p-avista .avista {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.p-avista .desconto {
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.btn-buy {
+    background-color: #1F1F1F;
+    color: #fff !important;
+}
+
+.btn-buy:hover {
+    transition: all ease-in-out 0.2s;
+    opacity: 0.9;
+}

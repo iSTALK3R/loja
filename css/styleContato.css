@@ -1,0 +1,43 @@
+/* Contact Area */
+
+.form-control:focus {
+    transition: all ease-in-out 0.2s;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    border-color: rgb(109, 109, 109);
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group label {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.form-group input[type='text'],
+.form-group textarea {
+    padding-left: 40px;
+}
+
+.btn-enviar {
+    background-color: #1F1F1F;
+    padding: 7px 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-enviar:hover {
+    transition: all ease-in-out 0.1s;
+    color: #fff;
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 1050px) {
+    .imagem {
+        display: none;
+    }
+}

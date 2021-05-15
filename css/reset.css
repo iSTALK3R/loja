@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEEEEE;
+}
+
+ul, li, a {
+    text-decoration: none !important;
+    list-style: none;
+}
+
+#active {
+	color: #fff !important;
+}
+
+select {
+  width: 220px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  outline: 0;
+  background-color: #EEEEEE;
+  color: #4C4C4C;
+  margin: 10px 0;
+}

@@ -1,0 +1,11 @@
+/* Empresa Area */
+
+.imgEtec {
+    width: 100% !important;
+    height: 400px;
+    background-image: url(../images/etec.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 30px;
+}

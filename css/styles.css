@@ -1,0 +1,280 @@
+body {
+  padding-left: 80px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+
+  Home
+
+*/
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  float: left;
+  background: rgb(0, 0, 0);
+  text-align: center;
+}
+
+nav .nav-container .nav-menu {
+  margin-top: 10px;
+}
+
+nav .nav-container .nav-menu .nav-item {
+  padding: 10px 10px;
+}
+
+nav .nav-container .nav-menu .nav-item .nav-link {
+  font-size: 22px;
+  color: rgb(100, 100, 100);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+nav .nav-container .nav-menu .nav-item .nav-link:hover {
+  background: rgb(32, 32, 32);
+  color: white;
+  transition: 0.2s;
+}
+
+#elseH1 {
+  padding: 10px;
+  width: 100%;
+  background: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* 
+
+  Controle de usuarios
+
+*/
+
+section.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+}
+
+section.form .form-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+section.form .form-container form .file-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.form .form-container form .file-group label {
+  cursor: pointer;
+  font-size: 120px;
+}
+
+section.form .form-container form .file-group span {
+  font-size: 15px;
+  color: #272727;
+}
+
+section.form .form-container form .file-group input[type='file'] {
+  display: none;
+}
+
+section.form .form-container form .form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+section.form .form-container form .form-group p {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+section.form .form-container form .form-group input[type='text'], 
+section.form .form-container form .form-group input[type='password'] {
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  padding: 0 7px;
+  border: none;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  outline: 0;
+}
+
+section.form .form-container form .form-group input[type='text']:focus, 
+section.form .form-container form .form-group input[type='password']:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+section.form .form-container form .form-group input[type='submit'] {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #1B8000;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
+}
+
+section.form .form-container form .form-group input[type='submit']:hover {
+  background-color: #219C00;
+}
+
+/* 
+
+  Tabela
+
+*/
+
+section.table {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+}
+
+section.table table {
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin: 10px;
+}
+
+section.table table td  {
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  padding: 7px 15px;
+}
+
+section.table table th {
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+}
+
+section.table table td a img {
+  margin-right: 15px;
+}
+
+/*
+
+  Alteração de User 
+
+*/
+
+section.alt-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+}
+
+section.alt-section .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+section.alt-section .form-container form .form-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+section.alt-section .form-container form .form-group p {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+section.alt-section .form-container form .form-group input[type='text'],
+section.alt-section .form-container form .form-group input[type='password'] {
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  padding: 0 7px;
+  border: none;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  outline: 0;
+}
+
+section.alt-section .form-container form .file-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+section.alt-section .form-container form .file-group label {
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 15px;
+  background-color: rgb(231, 231, 231);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+section.alt-section .form-container form .file-group label:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+section.alt-section .form-container form .file-group input[type='file'] {
+  display: none;
+}
+
+section.alt-section .form-container form .form-group input[type='submit'] {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #1B8000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+}
+
+section.alt-section .form-container form .form-group input[type='submit']:hover {
+  background-color: #219C00;
+}
